@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Leetcode.EasyCollection;
+using System;
 
 namespace Leetcode
 {
@@ -6,7 +7,8 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IQuestion question = new ReturnDuplicatesFromSortedArray();
+            question.Answer();
         }
     }
 }
