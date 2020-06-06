@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Leetcode.EasyCollection
 {
+    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
     class ReturnDuplicatesFromSortedArray : IQuestion
     {
         int[] nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };

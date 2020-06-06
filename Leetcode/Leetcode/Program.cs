@@ -7,7 +7,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            IQuestion question = new ReturnDuplicatesFromSortedArray();
+            IQuestion question = new BestTimeToBuyAndSellStockII();
             question.Answer();
         }
     }
