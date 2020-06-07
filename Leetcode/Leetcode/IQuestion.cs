@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Leetcode
 {
-    interface IQuestion
+    public interface IQuestion
     {
         void Answer();
     }
