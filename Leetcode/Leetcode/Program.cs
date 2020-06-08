@@ -1,4 +1,5 @@
 ﻿using Leetcode.EasyCollection;
+using Leetcode.EasyCollection.Strings;
 using System;
 
 namespace Leetcode
@@ -7,7 +8,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            IQuestion question = new BestTimeToBuyAndSellStockII();
+            IQuestion question = new ReverseString();
             question.Answer();
         }
     }
