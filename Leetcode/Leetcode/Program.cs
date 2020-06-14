@@ -8,7 +8,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            IQuestion question = new ReverseString();
+            IQuestion question = new ReverseInteger();
             question.Answer();
         }
     }
