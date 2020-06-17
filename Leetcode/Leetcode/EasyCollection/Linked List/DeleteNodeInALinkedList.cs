@@ -32,7 +32,7 @@ namespace Leetcode.EasyCollection.Linked_List
     }
 
 
-    public class ListNode
+    public partial class ListNode
     {
         public int val;
         public ListNode next;
