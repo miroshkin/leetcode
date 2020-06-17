@@ -1,4 +1,5 @@
 ﻿using Leetcode.EasyCollection;
+using Leetcode.EasyCollection.Linked_List;
 using Leetcode.EasyCollection.Strings;
 using System;
 
@@ -8,7 +9,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            IQuestion question = new ReverseInteger();
+            IQuestion question = new DeleteNodeInALinkedList();
             question.Answer();
         }
     }
