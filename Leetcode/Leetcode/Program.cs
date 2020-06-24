@@ -11,7 +11,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            IQuestion question = new MergeSortedArray();
+            IQuestion question = new FirstBadVersionQuestion();
             question.Answer();
         }
     }
