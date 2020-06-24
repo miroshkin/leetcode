@@ -42,7 +42,7 @@ namespace Leetcode.EasyCollection.Sorting_And_Searching
             while (left < right)
             {
                 int mid = left + (right - left) / 2;
-                if (isBadVersion(mid))
+                if (IsBadVersion(mid))
                 {
                     right = mid;
                 }
@@ -54,7 +54,7 @@ namespace Leetcode.EasyCollection.Sorting_And_Searching
             return left;
         }
 
-        public bool isBadVersion(int version)
+        public bool IsBadVersion(int version)
         {
             return _appVersions.Find(av => av.Number == version).IsBad;
         }
