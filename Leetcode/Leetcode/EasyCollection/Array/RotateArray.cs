@@ -31,9 +31,11 @@ namespace Leetcode.EasyCollection.Array
             {
                 for (int i = 0; i < k; i++)
                 {
-                    
+                    return nums;
                 }
             }
+
+            return nums;
         }
     }
 }
