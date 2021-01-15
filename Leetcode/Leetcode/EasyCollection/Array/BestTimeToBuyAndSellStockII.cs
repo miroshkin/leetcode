@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Leetcode.EasyCollection
 {
-    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
+    /// <summary>
+    /// <see href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/"/>
+    /// </summary>
     public class BestTimeToBuyAndSellStockII : IQuestion
     {
         int[] prices = new int[] { 7, 1, 5, 3, 6, 4 };

@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Leetcode.EasyCollection
 {
-    //https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
+    /// <summary>
+    /// <see href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/"/>
+    /// </summary>
     class ReturnDuplicatesFromSortedArray : IQuestion
     {
         int[] nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
@@ -12,18 +14,10 @@ namespace Leetcode.EasyCollection
         public void Answer()
         {
             Console.WriteLine($"Array length is {RemoveDuplicates(nums)}");
-            PrintOutArray();
+            LeetcodeHelper.PrintOutArray(nums);
         }
 
-        private void PrintOutArray()
-        {
-            string arrayContent = string.Empty;
-            for (int i = 0; i < nums.Length; i++)
-            {
-                arrayContent += ", " + nums[i].ToString();
-            }
-            Console.WriteLine($"[{arrayContent}]");
-        }
+        
 
         public int RemoveDuplicates(int[] nums)
         {
